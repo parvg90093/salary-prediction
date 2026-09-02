@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import pickle
 import pandas as pd
@@ -57,4 +57,3 @@ if st.button("Predict Salary"):
 
     # Display result
     st.success(f"Predicted Salary: {prediction[0]:,.2f}")
-```
